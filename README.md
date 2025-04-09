@@ -23,7 +23,6 @@ Users can **view**, **advance** the order status, and **delete** orders.
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [UUID](https://www.npmjs.com/package/uuid) (for unique order IDs)
 
 ---
 
@@ -44,10 +43,13 @@ cd order-management-dashboard
 npm install
 
 3. To run the application
-npm run dev
+npm run start:full
+
 ```
 Folder Structure
 ├── public/
+|-- backend/
+|   |- order-application-1.0.0.jar
 ├── src/
 │   ├── components/
 │   │   └── OrderManagement.jsx
