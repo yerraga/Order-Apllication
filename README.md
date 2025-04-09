@@ -36,6 +36,8 @@ Follow these steps to run the project locally.
 
 ```bash
 git clone https://github.com/your-username/order-management-dashboard.git
+
+1. go to directory
 cd order-management-dashboard
 
 2. install dependencies
